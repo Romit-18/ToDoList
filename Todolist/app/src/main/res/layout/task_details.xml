@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".task_details">
+
+    <EditText
+        android:id="@+id/edittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Name"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingEnd="7dp"
+        android:paddingStart="7dp"
+        />
+    <EditText
+        android:id="@+id/edittxt3"
+        android:layout_below="@id/edittxt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingEnd="7dp"
+        android:paddingStart="7dp"
+        />
+    <EditText
+        android:id="@+id/edittxt4"
+        android:layout_below="@id/edittxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task remainder"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingEnd="7dp"
+        android:paddingStart="7dp"
+        />
+
+
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittxt4"
+        android:text="Upload Image"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
